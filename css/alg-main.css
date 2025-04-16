@@ -20,7 +20,7 @@ body {
     display: none;
   }
  
-  /* ~ sibling selector */
+
  
   #main-nav input:checked ~ #burger-con {
     display: block;

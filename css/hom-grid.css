@@ -1,4 +1,4 @@
-/* ---Mini CSS reset--- */
+
 
 body, p, h1, h2, h3, h4, h5, h6 {
     margin: 0px;
@@ -6,13 +6,13 @@ body, p, h1, h2, h3, h4, h5, h6 {
     width: auto;
 }
 
-/* ---Utility Classes--- */
+
 
 .hidden {
     display: none;
 }
 
-/* ---Mobile Library Grid Styles--- */
+
 
 .grid-con {
     display: grid;

@@ -74,14 +74,13 @@ body {
   grid-column-start: 1 ;
   grid-column-end: 4;
   grid-row-start: 4;
-  grid-row-end: ;
+  
 }
 
 #algonquin-text {
  grid-column-start: 1 ;
  grid-column-end: 6;
  grid-row-start: 4;
- grid-row-end: ;
  margin-top: -27px;
 }
 
@@ -122,7 +121,7 @@ margin-bottom: 41px;
   grid-column-start: 1 ;
   grid-column-end: 4;
   grid-row-start: 4;
-  grid-row-end: ;
+  
 }
 
 #park-activities {

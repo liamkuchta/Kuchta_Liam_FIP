@@ -3,6 +3,10 @@
     display: none;
 }
 
+body {
+  font-family: 'sanchez';
+}
+
 #main-nav label img {
     width: 20px;
     height: 20px;
@@ -85,7 +89,7 @@
     height: 320px;
     background-position: 25% 120% ;
     background-size: cover;
-    margin-top: 220px;
+    margin-top: 300px;
     }
   
     #boats-title {
@@ -111,7 +115,7 @@
       height: 320px;
       background-position: 25% 120% ;
       background-size: cover;
-      margin-top: 220px;
+      margin-top: 280px;
       }
     
       #patio-title {
@@ -154,7 +158,7 @@
     
       .readmore33 {
         grid-column-end: 6;
-        margin-top: 130px;
+        margin-top: 190px;
       }
 
       #parksummer-hero-con {
@@ -188,7 +192,7 @@
         height: 320px;
         background-position: 25% 30% ;
         background-size: cover;
-        margin-top: 290px;
+        margin-top: 370px;
         }
       
         #motor-title {
@@ -214,7 +218,7 @@
   height: 320px;
   background-position: 25% 30% ;
   background-size: cover;
-  margin-top: 320px;
+  margin-top: 420px;
 }
 
 #badminton-title {
@@ -240,7 +244,7 @@
   height: 320px;
   background-position: 25% 30% ;
   background-size: cover;
-  margin-top: 207px;
+  margin-top: 217px;
 }
 
 #kayak-title {
@@ -314,7 +318,7 @@
 
   .readmore44 {
     grid-column-end: 6;
-    margin-top: 130px;
+    margin-top: 160px;
   }
 
 .red-line-summer {

@@ -1,0 +1,293 @@
+
+.hidden {
+    display: none;
+}
+
+body {
+  font-family: 'Sanchez';
+}
+
+#crlogo {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  50% {
+    transform: translateY(13px);
+}
+
+}
+
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+ 
+  #main-nav ul li a {
+    
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+  }
+ 
+  #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+  }
+ 
+  #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+    grid-column-start: 2;
+    grid-column-end: 12;
+  }
+ 
+  #main-header #menu ul {
+    margin-top: 42px ;
+    margin-left: -100px;
+  }
+
+  #booknow a {
+    grid-column-start: 8;
+    grid-column-end: 11;
+    margin-left: -40px;
+  }
+
+  .book-now {
+    display: inline-block;
+    width: 183px;
+    height: 110px;
+    background-color: #9B2019; 
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 110px; 
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .book-now:hover::after {
+    left: 200%;
+  }
+  
+  .book-now:hover {
+    background-color: #aa2a23;
+    transform: translateY(-5px);
+  }
+  
+  #main-header #logo img {
+    height: 35px;
+    margin-left: ;
+    margin-top: 33px;
+  }
+
+  #logo  {
+    height: 60px;
+  }
+
+  #menu ul {
+    display: flex;
+    grid-column-end: 8;
+    grid-column-start: 1;
+    gap: 1.5rem;
+  }
+
+  #main-header {
+    display: flex ;
+    grid-column-start: 2;
+    grid-column-end: 12;
+  }
+
+
+  #span-line {
+    background-color: #9B2019;
+    height: 3px;
+  width: 965px;
+    margin-top:;
+  }
+
+#algonquin-title h3 {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  font-size: 30px;
+}
+
+  #section-text p {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    margin-top: 35px;
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+
+  #split {
+    grid-column-start: 2;
+    grid-column-end: 10;
+  }
+
+  #split-hero img {
+    height: 672px;
+  }
+
+  #park-activities-title h3 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    font-size: 30px;
+  }
+
+  #section-text2 p {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    margin-top: 35px;
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+
+  #span-line2 {
+    background-color: #9B2019;
+    height: 3px;
+    width: 965px;
+    margin-top:;
+  }
+
+  #fishing-desktop {
+    background-color: #EEEDED;
+    padding: 0%;
+    grid-column-start: 1;
+    grid-column-end: 12;
+  }
+
+ 
+
+  #fishing-desktop h3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-size: 30px;
+    margin-left: -14px;
+  }
+
+  #span-line3 {
+    background-color: #9B2019;
+    height: 3px;
+  width: 965px;
+    margin-top: 98px;
+  }
+
+  #fishing-poster img {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    height: 664px;
+  }
+  
+  #fishing-poster {
+    background-color: #EEEDED;
+    margin-left: ;
+    padding: 0%;
+  }
+
+#fishing-poster img {
+  margin-left: -15px;
+  margin-bottom: 60px;
+
+}
+
+  #fishing-text-desktop p {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+
+  #fishing-text-desktop {
+    background-color: #EEEDED;
+    padding: 0%;
+  }
+
+
+
+  #galeairy-img {
+    background: url(../images/algonquin-lake.png) no-repeat;
+    background-size: cover;
+    background-position: 25% 89%;
+    height: 800px;
+    margin-top: 60px;
+    padding: 0%;
+  }
+
+  #galeairy-text-box {
+    background-color: white;
+    height: 95px;
+    margin-top: 120px;
+    margin-left: 0px;
+    width: 470px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+  }
+
+  #galeairy-text-box h3 {
+    grid-column-start: 1;
+    grid-column-end: 18;
+    font-size: 30px;
+    margin-left: 30px;
+  }
+
+  #galeairy-description p {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+  }
+
+  #footer-hero {
+    background-image: url(../images/footer-desktop.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    background-size: cover;
+    font-size: 12px;
+    margin-top: 40px;
+    
+    padding: 0%;
+    height: 800px;
+  }
+
+  #footer-contact-info  {
+    font-size: 20px;
+  }
+  
+  #footer-contact-info div {
+    margin-top: 90px;
+  }
+
+ #menu-1 p {
+  grid-column-start: 3;
+  grid-column-end: 4;
+ }
+
+ #menu2 p {
+  grid-column-start: 4;
+  grid-column-end: 5;
+ }
+
+ #location-info p {
+  grid-column-start: 1;
+  grid-column-end: 4;
+ }
+
+ #location-info h3 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+ }
+
+ #booknowbutton img {
+  grid-column-start: 7;
+    grid-column-end: 8;
+ }
+  
+  #footer-hero #footer-contact-info #menu-1  p {
+    grid-column-start: 7;
+    grid-column-end: 10;
+  }
+
+  
+
+  

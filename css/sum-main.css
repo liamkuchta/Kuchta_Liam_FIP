@@ -1,0 +1,362 @@
+
+.hidden {
+    display: none;
+}
+
+#main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px;
+  }
+ 
+  #main-nav input, #burger-con {
+    display: none;
+  }
+ 
+  #main-nav input:checked ~ #burger-con {
+    display: block;
+  }
+ 
+  #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+  }
+ 
+  #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+ 
+  #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+  }
+ 
+  #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+  }
+ 
+  #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+  }
+ 
+  #main-nav ul li:last-child {
+    margin-bottom: 40px;
+  }
+
+  
+
+  #couplesonly-hero-con {
+  background: url(../images/paddle-mobile.png) no-repeat;
+  height: 320px;
+  background-position: 25% 120% ;
+  background-size: cover;
+  }
+
+  #couplesonly-title {
+    font-size: 22px;
+  margin-left: 30px;
+  margin-top: 19px;
+  font-size: 22px;
+  }
+
+  #couplesonly-title p {
+    margin-bottom: 30px;
+  }
+
+  #couplesonly-title-box {
+  background-color: white;
+  height: 50px;
+  margin-top: 270px;
+  grid-column-end: 6;
+  }
+
+  #couplesonly-title-box p {
+    margin-left: 30px;
+  }
+
+  #boats-hero-con {
+    background: url(../images/boats-mobile.png) no-repeat;
+    height: 320px;
+    background-position: 25% 120% ;
+    background-size: cover;
+    margin-top: 220px;
+    }
+  
+    #boats-title {
+      font-size: 22px;
+    margin-left: 30px;
+    margin-top: 19px;
+    font-size: 22px;
+    }
+  
+    #boats-title-box {
+      background-color: white;
+    height: 50px;
+    margin-top: 270px;
+    grid-column-end: 6;
+    }
+  
+    #boats-title-box p {
+      margin-left: 30px;
+    }
+
+    #patio-hero-con {
+      background: url(../images/tub-mobile.png) no-repeat;
+      height: 320px;
+      background-position: 25% 120% ;
+      background-size: cover;
+      margin-top: 220px;
+      }
+    
+      #patio-title {
+        font-size: 22px;
+      margin-left: 30px;
+      margin-top: 19px;
+      font-size: 22px;
+      }
+    
+      #patio-title-box {
+        background-color: white;
+      height: 50px;
+      margin-top: 270px;
+      grid-column-end: 6;
+      }
+    
+      #patio-title-box p {
+        margin-left: 30px;
+      }
+
+      .readmore33 details{
+        padding: 10px;
+      }
+    
+     .readmore33 summary {
+        background-color: #e8e8e8;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #a01a1a;
+      }
+    
+     .readmore33 p {
+        padding-top: 15px;
+      }
+    
+      #readmore33 {
+        margin-top: 147px;
+      }
+    
+      .readmore33 {
+        grid-column-end: 6;
+        margin-top: 130px;
+      }
+
+      #parksummer-hero-con {
+      background: url(../images/lake-mobile.png) no-repeat;
+      height: 320px;
+      background-position: 25% 30% ;
+      background-size: cover;
+      margin-top: 20px;
+      }
+    
+      #parksummer-title {
+        font-size: 22px;
+      margin-left: 30px;
+      margin-top: 19px;
+      font-size: 22px;
+      }
+    
+      #parksummer-title-box {
+        background-color: white;
+      height: 50px;
+      margin-top: 270px;
+      grid-column-end: 6;
+      }
+    
+      #parksummer-title-box p {
+        margin-left: 30px;
+      }
+
+        #motor-hero-con {
+        background: url(../images/row-mobile.png) no-repeat;
+        height: 320px;
+        background-position: 25% 30% ;
+        background-size: cover;
+        margin-top: 290px;
+        }
+      
+        #motor-title {
+          font-size: 22px;
+        margin-left: 30px;
+        margin-top: 19px;
+        font-size: 22px;
+        }
+      
+        #motor-title-box {
+          background-color: white;
+        height: 50px;
+        margin-top: 270px;
+        grid-column-end: 6;
+        }
+      
+        #motor-title-box p {
+          margin-left: 30px;
+        }
+
+#badminton-hero-con {
+  background: url(../images/tennis-mobile.png) no-repeat;
+  height: 320px;
+  background-position: 25% 30% ;
+  background-size: cover;
+  margin-top: 320px;
+}
+
+#badminton-title {
+  font-size: 22px;
+  margin-left: 30px;
+  margin-top: 19px;
+  font-size: 22px;
+}
+
+#badminton-title-box {
+  background-color: white;
+  height: 50px;
+  margin-top: 270px;
+  grid-column-end: 6;
+}
+
+#badminton-title-box p {
+  margin-left: 30px;
+}
+
+#kayak-hero-con {
+  background: url(../images/canoe-mobile.png) no-repeat;
+  height: 320px;
+  background-position: 25% 30% ;
+  background-size: cover;
+  margin-top: 207px;
+}
+
+#kayak-title {
+  font-size: 22px;
+  margin-left: 30px;
+  margin-top: 19px;
+  font-size: 22px;
+}
+
+#kayak-title-box {
+  background-color: white;
+  height: 50px;
+  margin-top: 270px;
+  grid-column-end: 6;
+}
+
+#kayak-title-box p {
+  margin-left: 30px;
+}
+
+#hiking-hero-con .grid-con {
+  background: url(../images/bike-mobile.png) no-repeat; 
+  height: 500px;
+  background-size: cover;
+  margin-top: 220px;
+  background-position: center;
+}
+
+#hiking-title {
+  font-size: 22px;
+  margin-left: 30px;
+  margin-top: 19px;
+  font-size: 22px;
+}
+
+#hiking-title-box {
+  background-color: white;
+  height: 50px;
+  margin-top: px;
+  grid-column-end: 6;
+}
+
+#hiking-title-box p {
+  margin-left: 30px;
+}
+
+#bike-image img  {
+    height: 400px;
+     margin-top: 210px;
+}
+
+.readmore44 details{
+    padding: 10px;
+  }
+
+ .readmore44 summary {
+    background-color: #e8e8e8;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #a01a1a;
+  }
+
+ .readmore44 p {
+    padding-top: 15px;
+  }
+
+  #readmore44 {
+    margin-top: 97px;
+  }
+
+  .readmore44 {
+    grid-column-end: 6;
+    margin-top: 130px;
+  }
+
+.red-line-summer {
+  background-color: #9B2019;
+  height: 3px;
+  width: 412px;
+  margin-Top: 28px;
+  grid-column-end: 6;
+}
+
+#unforeseen-title {
+  font-size: 22px;
+  margin-left: 79px;
+  margin-top: 19px;
+  font-size: 22px;
+}
+
+#footer-hero {
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+  }
+
+  #footer-hero h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  #footer-privacy .line-separator {
+    margin-top: 0px;
+  }
+
+  #footer-contact-info h3 {
+    font-size: 23px;
+  }
+
+  #footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 11px;
+  }

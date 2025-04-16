@@ -1,0 +1,218 @@
+
+.hidden {
+    display: none;
+}
+
+#main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px;
+  }
+ 
+  #main-nav input, #burger-con {
+    display: none;
+  }
+ 
+  /* ~ sibling selector */
+ 
+  #main-nav input:checked ~ #burger-con {
+    display: block;
+  }
+ 
+  #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+  }
+ 
+  #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+ 
+  #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+  }
+ 
+  #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+  }
+ 
+  #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+  }
+ 
+  #main-nav ul li:last-child {
+    margin-bottom: 40px;
+  }
+
+  #algonquin-park {
+    margin-top: 160px;
+    margin-left: 50px;
+    background-color: white;
+    padding-top: 13px ;
+    padding-left: 60px;
+  }
+
+#algonquin-hero-con {
+  background: url(../images/algon.png) no-repeat;
+  height: 320px;
+  background-position: 25% 120% ;
+  background-size: cover;
+}
+
+#algonquin-park {
+  grid-column-start: 1 ;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: ;
+}
+
+#algonquin-text {
+ grid-column-start: 1 ;
+ grid-column-end: 6;
+ grid-row-start: 4;
+ grid-row-end: ;
+ margin-top: -27px;
+}
+
+#algonquin-title-box {
+  background-color: white;
+  height: 50px;
+  margin-top: 270px;
+  grid-column-end: 6;
+}
+
+#algonquin-title {
+  font-size: 22px;
+  margin-left: 30px;
+  margin-top: 19px;
+  font-size: 22px;
+}
+
+.red-line {
+  background-color: #9B2019;
+  height: 3px;
+  width: 400px;
+margin-bottom: 41px;
+
+}
+
+#moose-hero-con {
+  background: url(../images/moose1.png) no-repeat;
+  height: 320px;
+  background-position: 25% 160%;
+  background-size: cover;
+}
+
+#moose-heading-box {
+  align-self: end;
+}
+
+#park-activities {
+  grid-column-start: 1 ;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: ;
+}
+
+#park-activities {
+  margin-top: 7px;
+  margin-left: -1px;
+  padding-top: 13px ;
+  padding-left: 30px;
+  font-size: 22px;
+}
+
+#activities-title-box {
+  background-color: white;
+  height: 50px;
+  margin-top: 242px;
+  grid-column-end: 6;
+}
+
+#activities-text {
+  margin-top: -55px;
+}
+
+.fishing-img img {
+  height: 274px;
+  margin-bottom: 42px;
+  margin-top: 15px;
+}
+
+#fishing {
+  background-color: #EEEDED;
+  font-size: 22px;
+}
+
+.red-line2 {
+  background-color: #9B2019;
+  height: 3px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+#galeairy-img {
+  background: url(../images/galeairy.png) no-repeat;
+  background-size: cover;
+  background-position: 25% 89%;
+  height: 270px;
+}
+
+#galeairy-img {
+  margin-top: 46px;
+}
+
+#galeairy-text-box {
+  background-color: white;
+  height: 50px;
+  margin-top: 220px;
+  grid-column-end: 6;
+}
+
+#galeairy-lake  {
+  font-size: 22px;
+  margin-left: 30px;
+  margin-top: 16px;
+}
+
+#galeairy-desc {
+  margin-top: -40px;
+}
+
+#footer-hero {
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+  margin-top: 30px;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+#footer-privacy .line-separator {
+  margin-top: 0px;
+}
+
+
+
+#footer-contact-info h3 {
+  font-size: 23px;
+}
+
+#footer-contact-info p {
+  margin-bottom: 20px;
+  line-height: 18px;
+  font-size: 11px;
+}

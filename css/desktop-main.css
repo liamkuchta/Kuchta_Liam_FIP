@@ -76,7 +76,7 @@ body {
   
   #main-header #logo img {
     height: 35px;
-    margin-left: ;
+    
     margin-top: 33px;
   }
 
@@ -102,7 +102,7 @@ body {
     background-color: #9B2019;
     height: 3px;
   width: 965px;
-    margin-top:;
+    
   }
 
 #algonquin-title h3 {
@@ -146,7 +146,7 @@ body {
     background-color: #9B2019;
     height: 3px;
     width: 965px;
-    margin-top:;
+    
   }
 
   #fishing-desktop {
@@ -180,7 +180,7 @@ body {
   
   #fishing-poster {
     background-color: #EEEDED;
-    margin-left: ;
+    
     padding: 0%;
   }
 
@@ -254,7 +254,7 @@ body {
     font-size: 20px;
   }
   
-  #footer-contact-info div {
+  #footer-hero div {
     margin-top: 90px;
   }
 
